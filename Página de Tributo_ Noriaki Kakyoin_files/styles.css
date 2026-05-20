@@ -1,0 +1,138 @@
+html {
+    font-family: Helvetica;
+    background-color: black;
+}
+
+body {
+    background-color: #0b3d2e;
+    color: #e6f2ec;
+}
+
+/* Container principal */
+.container {
+    max-width: 1100px;
+    background-color: #0f1f1a;
+    position: relative;
+    margin: 50px auto;
+    padding: 20px 50px;
+    border-radius: 10px;
+}
+
+/* Texto em negrito */
+.bold {
+    font-weight: bold;
+}
+
+/* Header */
+.header {
+    text-align: center;
+}
+
+.main-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: #a8ffcc;
+    text-shadow: 0 0 10px #2ecc71;
+}
+
+.main-paragraph {
+    font-style: italic;
+}
+
+/* Imagem principal */
+.featured-image img {
+    display: block;
+    margin: 30px auto;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.featured-image figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featured-image figcaption {
+    margin-top: 10px;
+    font-style: italic;
+    color: #cfe8dc;
+}
+
+/* Biografia */
+.biography-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+/* Citações */
+.quotes-container {
+    background-color: #132b22;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.quotes-container blockquote {
+    font-family: 'Cinzel', serif;
+    font-size: 34px;
+    font-weight: 600;
+    color: #e6f2ec;
+}
+
+.quotes-container p {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #cfe8dc;
+}
+
+/* Segunda citação (impacto maior) */
+.quotes-container:nth-of-type(2) blockquote {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    letter-spacing: 2px;
+    color: #a8ffcc;
+    text-shadow: 0 0 10px #2ecc71;
+}
+
+/* Curiosidades */
+.curiosities-container {
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px dashed #ddd;
+    border-bottom: 1px dashed #ddd;
+}
+
+.curiosities-container li {
+    height: 30px;
+}
+
+/* Imagens pequenas (meme) */
+.meme-box img {
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Imagens centralizadas */
+.img-bold {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Mais informações */
+.moreinfo-container {
+    text-align: center;
+}
+.img-bold img {
+    width: 580px;
+    opacity: 0.95;
+    filter: drop-shadow(0 0 8px #2ecc71);
+}
+.moreinfo-container a:hover {
+    color: white;
+    text-shadow: 0 0 12px #2ecc71, 0 0 20px #2ecc71;
+}
